@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: opx;
+  margin: 0;
+  font-family: 'Lato'sans-serif;
+}
+
+.Home, .Reports, .products {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
