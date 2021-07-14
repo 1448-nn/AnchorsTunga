@@ -12,6 +12,8 @@ import PastPapers from '../components/teacher_Access/pages/pastpapers';
 import teacher_dash from '../components/teacher_Access/teacher_dash';
 import studentdash from '../components/student_Access/studentdash';
 import login from '../components/app-form/login';
+import ordinary_Accees from '../components/student_Access/ordinary_Accees';
+import advanced_access from '../components/student_Access/advanced_access';
 
 
 
@@ -29,6 +31,8 @@ function App(){
             < Route path='/teacher_Access/pages/notes' component={Notes}/>
            <Route path='/teacher_Access/pages/pastpapers' component={PastPapers}/>
            <Route path='/student_Access/studentdash' component={studentdash}/>
+           <Route path='/student_Access/ordinary_Access' component={ordinary_Accees}/>
+           <Route path='/student_Access/advanced_access' component={advanced_access}/>
            <Route path='/teacher_Access/teacher_dash' component={teacher_dash}/>
            <Route path='/app-form/login' component={login}/>
            

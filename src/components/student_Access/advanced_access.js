@@ -1,33 +1,36 @@
 import React, {useState} from 'react';
-import { Card, CardBody, Row, Col } from 'reactstrap';
-import './homepage.css'
-import img1 from '../images/img1.jpg';
-import img2 from '../images/img2.jpg';
-import img3 from '../images/img3.jpg';
-import img4 from '../images/img4.jpg';
-import img5 from '../images/img5.jpg';
-import'./dash_head.css';
-import Searchbar from './teacher_Access/searchbar';
-import Footer from './footer';
+import { Card, CardBody, Row, Col, Navbar } from 'reactstrap';
+import img4 from './img4.jpg';
+import img1 from './images/img1.jpg';
+import './upperbar.css'
+import Footer from '../footer';
 
-function Homepage () {
+
+
+function studentdash () {
 
     
-return(  
-        <div>
-           
-            <div className='land_page'>
-                
-            <a href="/app-form/login" className="link font-medium" style={{cursor : 'pointer'}}>
-                Login </a> 
-                <a href="/app-form/login" className="link font-medium" style={{cursor : 'pointer'}}>
-                Help </a> 
+return(
+    
+       <div>
+        <div className='upperbar'>
+            
+            <a href="/app-form/Form" className="link font-medium" style={{cursor : 'pointer'}}>
+                Assignment </a>  
                 <a href="/app-form/Form" className="link font-medium" style={{cursor : 'pointer'}}>
-                Settings </a> 
-                <Searchbar className='pagehomesearch'/>
-             
+                Lessons </a>  
+                <a href="/app-form/Form" className="link font-medium" style={{cursor : 'pointer'}}>
+                Exams </a>  
+                <a href="/app-form/Form" className="link font-medium" style={{cursor : 'pointer'}}>
+                My Grade </a> 
+                <a href="/teacher_Access/teacher_dash" className="link font-medium" style={{cursor : 'pointer'}}>
+                Upload Work </a> 
+                <a href="/homepage" className="link font-medium" style={{cursor : 'pointer'}}>
+                Logout </a> 
             </div>
-            <img src={img2} alt="img" className="image" />
+        <div>
+            <img src={img1} alt="" className='image4' />
+            </div>
       <div>
                 <Row className='Row-one'>
                     <Col lg="4">
@@ -35,16 +38,18 @@ return(
                     <div className='rectangle'>
                     </div>
                     <div className='head1'>
-                 <h5><strong>EDUCATION</strong></h5>
+                 <h5><strong>ADVANCED</strong></h5>
                  <h5><strong> LEVEL </strong></h5>
                  <h5><strong>CHANNELS</strong></h5>
                     </div>
                    </div>
                     </Col>
-                    <Col lg="4">
-                    <p className='des'>The channel contains Learning resources to Support the <br/>
-                    learning on all the curriculums. The content <br/> is categorized for 
-                    pre-primary, post-primary,<br/> ordinary and Advanced levels
+                    <Col lg="6">
+                    <p className='des'> The A Level (Advanced Level) is a subject-based qualification conferred as part
+                     of the General Certificate of Education, as well as a school leaving qualification offered by 
+                    the educational body in Uganda(UNEB) to students completing secondary or pre-university education
+                    Obtaining an A Level, or equivalent qualifications, is generally required for university entrance, 
+                    with universities granting offers based on grades achieved.
                     </p>
                     </Col>
                     
@@ -59,16 +64,16 @@ return(
 
                         <CardBody>
                             <div className="blog-image">
-                                <img src={img1} alt="img" className="img-fluid" />
+                                <img src={img4} alt="img" className="img-fluid" />
                             </div>
-                            <h5>Pre-Primary</h5>
+                        
                             
                             <div className="d-flex">
                                 <div className="read">
                                 <a href="/app-form/Form" className="link font-medium" style={{cursor : 'pointer'}}>
-                                        Access Content
+                                        Senior Five
                                  </a> 
-                </div>
+                           </div>
                       </div>      
                         </CardBody>
                     </Card>
@@ -79,23 +84,17 @@ return(
 
                     <Card  >
                         <CardBody>
-                            <div className="">
+                            <div className="blog-image">
                                 <img src={img4} alt="img" className="img-fluid" />
                             </div>
-                            <h5>Post-Primary</h5>
-                           
+                                                   
                             <div className="d-flex">
                                 <div className="read">
-                                 <a href="/student_Access/studentdash" className="link font-medium" style={{cursor : 'pointer'}}>
-                                        Access Content
+                                 <a href="/app-form/Form" className="link font-medium" style={{cursor : 'pointer'}}>
+                                        Senior Six
                       </a> 
                                 </div>
-                                <div className="ml-auto" >
-                                    <a href="/" className="link mr-2" id="TooltipExample5">
-                                        <i className="mdi mdi-heart-outline" />
-                                    </a>
-                                   
-                                </div>
+                                
                             </div>
                         </CardBody>
                     </Card>
@@ -104,14 +103,13 @@ return(
                     <Card>
                         <CardBody>
                             <div className="blog-image">
-                                <img src={img3} alt="img" className="img-fluid" />
+                                <img src={img4} alt="img" className="img-fluid" />
                             </div>
-                            <h5>Ordinary - Level</h5>
-                  
+                        
                             <div className="d-flex">
                                 <div className="read">
-                                <a href="/student_Access/ordinary_Access" className="link font-medium" style={{cursor : 'pointer'}}>
-                                        Access Content
+                                <a href="/app-form/Form" className="link font-medium" style={{cursor : 'pointer'}}>
+                                        Experiments
                                  </a> 
                                 </div>
                                 
@@ -123,14 +121,14 @@ return(
                     <Card >
                         <CardBody>
                             <div className="blog-image">
-                                <img src={img5} alt="img" className="img-fluid" />
+                                <img src={img4} alt="img" className="img-fluid" />
                             </div>
-                            <h5>Advanced Level</h5>
+            
                            
                             <div className="d-flex">
                                 <div className="read">
-                                <a href="/student_Access/advanced_access" className="link font-medium" style={{cursor : 'pointer'}}>
-                                        Access Content
+                                <a href="/app-form/Form" className="link font-medium" style={{cursor : 'pointer'}}>
+                                        Mocks
                                  </a> 
                                 </div>
                                 
@@ -140,6 +138,9 @@ return(
                 </Col>
                 
             </Row>
+
+            
+    
     
             <Footer/>
     
@@ -152,5 +153,5 @@ return(
     }
 
     
-    export default Homepage;
+    export default studentdash;
     
