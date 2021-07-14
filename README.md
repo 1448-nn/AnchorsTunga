@@ -40,4 +40,4 @@
   
   8. Tests
   
-   Thests have not been done as of yet this is just the first MVP for the first week, but we are dedicated to push this beast further.
+   The tests have not been done as of yet, this is just the first MVP for the first week, but we are dedicated to push this beast further.
