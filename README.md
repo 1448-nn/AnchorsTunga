@@ -20,6 +20,7 @@
         2. Awori Maria Vivian
         3. Shamim Devsham
         4. Komuhangi Tumuhairwe
+        
  And ofcourse not forgetting the various learning sites followed such as udemy academy, you tube and many others.
 
  6. NB: This project does not have a lincence.
