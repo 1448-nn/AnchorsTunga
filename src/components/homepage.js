@@ -65,7 +65,8 @@ return(
                             
                             <div className="d-flex">
                                 <div className="read">
-                                <a href="/app-form/Form" className="link font-medium" style={{cursor : 'pointer'}}>
+                                <a href="/app-form/Form
+                                " className="link font-medium" style={{cursor : 'pointer'}}>
                                         Access Content
                                  </a> 
                 </div>
