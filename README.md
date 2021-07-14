@@ -19,10 +19,10 @@
    5. Credits
    
    Credit goes to this wonderful team who managed to pull this off in such a short time with all the crazy fixed schedules each one had 
-        1. Hamna Nuru
-        2. Awori Maria Vivian
-        3. Shamim Devsham
-        4. Komuhangi Tumuhairwe
+        1. Hamna Nuru            https://github.com/Awor
+        2. Awori Maria Vivian    https://github.com/Awori
+        3. Shamim Devsham        https://github.com/Devsham
+        4. Komuhangi Tumuhairwe  https://github.com/jahielkomu
         
  And ofcourse not forgetting the various learning sites followed such as udemy academy, you tube and many others.
 
@@ -36,4 +36,4 @@
   
   8. Tests
   
-   Thests have not been done as of yet. this Just the first MVP for the first week, but we are dedicated to push this beast further.
+   Thests have not been done as of yet this is just the first MVP for the first week, but we are dedicated to push this beast further.
