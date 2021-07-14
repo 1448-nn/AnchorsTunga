@@ -18,10 +18,14 @@
    
    5. Credits
    
-   Credit goes to this wonderful team who managed to pull this off in such a short time with all the crazy fixed schedules each one had 
-        1. Hamna Nuru            https://github.com/Awor
+   Credit goes to this wonderful team who managed to pull this off in such a short time with all the crazy fixed schedules each one had.
+   
+        1. Hamna Nuru            https://github.com/1448-nn
+        
         2. Awori Maria Vivian    https://github.com/Awori
+        
         3. Shamim Devsham        https://github.com/Devsham
+        
         4. Komuhangi Tumuhairwe  https://github.com/jahielkomu
         
  And ofcourse not forgetting the various learning sites followed such as udemy academy, you tube and many others.
@@ -32,7 +36,7 @@
  
  7. How to contribute:
  
-  Please reach out to our different github profiles and lets get this done 
+  Please reach out to our different github profiles and let's get this done 
   
   8. Tests
   
