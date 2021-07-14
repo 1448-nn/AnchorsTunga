@@ -6,7 +6,7 @@
 2. Description:
 
  This is designed to help mitigate these trying times helping students get close to school material and teachers ably deleivering  school material to their students.
- The system is designed using majorly two frameworks react.js for front end and django for backend, the prefered database is postgress. these technologies were chosen due to their different developer tools provided. React gives an ability to optimize the search engine, they have fast rendering and other various inbuilt capabilities. It has been a ride learning these frameworks given the short time at hand. We hope to implement  more features in the future such as a live chat, or even a chat box 
+ The system is designed using majorly two frameworks react.js for front end and django for backend, the prefered database is postgress. These technologies were chosen due to their different developer tools provided. React gives an ability to optimize the search engine, they have fast rendering and other various inbuilt capabilities. Django is so big on security measures which would be good for our users. It has been a ride learning these frameworks given the short time at hand. We hope to implement  more features in the future such as a live chat, or even a chat box 
  
  3. Installation:
   This system is to be accesed using a web browser or a search engine such as chrome, firefox and others since it is web based. No dependecies required except a browser
