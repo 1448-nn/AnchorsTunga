@@ -43,9 +43,7 @@ class Register extends Component{
     }
     render(){
         if(this.state.registered){
-            return <Redirect to={'/'}/>
-            // return window.location('http:127.0.0.1:3000')
-
+            return <Redirect to={'/login'}/>
         }
         return(
 
