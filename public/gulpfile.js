@@ -14,7 +14,7 @@ const sass = require("gulp-sass");
 const uglify = require("gulp-uglify");
 
 // Load package.json for banner
-const pkg = require('./startbootstrap-sb-admin-2-gh-pages/package.json');
+const pkg = require('./teplates/package.json');
 
 // Set the banner content
 const banner = ['/*!\n',
