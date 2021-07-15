@@ -16,19 +16,21 @@ return(
        <div>
         <div className='upperbar'>
             
-            <Link to={"/app-form/Form"} className="link font-medium" style={{cursor : 'pointer'}}>
+                <Link to={"/app-form/Form"} className="link font-medium" style={{cursor : 'pointer'}}>
                 Assignment </Link>
                 <Link  to={"/app-form/Form"} className="link font-medium" style={{cursor : 'pointer'}}>
                 Lessons </Link>
                 <Link to={"/app-form/Form"} className="link font-medium" style={{cursor : 'pointer'}}>
-                Exams </Link>/home
+                Exams </Link>
                 <Link to={"/app-form/Form"} className="link font-medium" style={{cursor : 'pointer'}}>
                 My Grade </Link>
                 <Link to={"/teacher_Access/teacher_dash"} className="link font-medium" style={{cursor : 'pointer'}}>
                 Upload Work </Link>
                 <Link to={"/logout"} className="link font-medium" style={{cursor : 'pointer'}}>
                 Logout </Link>
-            </div>
+                <Link to={"/"} className="link font-medium" style={{cursor : 'pointer'}}>
+                    Home </Link>
+                </div>
         <div>
             <img src={img1} alt="" className='image4' />
             </div>
