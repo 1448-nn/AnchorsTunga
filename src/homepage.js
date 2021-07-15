@@ -90,7 +90,7 @@ class Homepage extends Component{
 
                                     <div className="d-flex">
                                         <div className="read">
-                                            <a href="/app-form/Form" className="link font-medium" style={{cursor : 'pointer'}}>
+                                            <a Link={"/app-form/Form"} className="link font-medium" style={{cursor : 'pointer'}}>
                                                 Access Content
                                             </a>
                                         </div>
@@ -138,12 +138,12 @@ class Homepage extends Component{
 
                                     <div className="d-flex">
                                         <div className="read">
-                                            <Link to={"/app-form/Form"} className="link font-medium" style={{cursor : 'pointer'}}>
+                                            <Link to={"/login"} className="link font-medium" style={{cursor : 'pointer'}}>
                                                 Access Content
                                             </Link>
                                         </div>
                                         <div className="ml-auto">
-                                            <Link to={"/"} className="link mr-2" id="TooltipExample3">
+                                            <Link to={"/login"} className="link mr-2" id="TooltipExample3">
                                                 <i className="mdi mdi-heart-outline" />
                                             </Link>
                                         </div>

@@ -140,7 +140,7 @@ class Register extends Component{
                         Sign up
                     </button>
                     <div className="text-center">
-                        <Link className="small" to={'/'}>Already have an account? Login!</Link>
+                        <Link className="small" to={'/login'}>Already have an account? Login!</Link>
                     </div>
                 </form>
             </div>

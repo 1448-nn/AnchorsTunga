@@ -87,9 +87,9 @@ return(
                            
                             <div className="d-flex">
                                 <div className="read">
-                                 <Link to={"/app-form/Form"} className="link font-medium" style={{cursor : 'pointer'}}>
+                                 <Link to={"/login"} className="link font-medium" style={{cursor : 'pointer'}}>
                                         Access Content
-                      </Link>
+                                 </Link>
                                 </div>
                                 <div className="ml-auto" >
                                     <Link to={"/"} className="link mr-2" id="TooltipExample5">
@@ -111,7 +111,7 @@ return(
                   
                             <div className="d-flex">
                                 <div className="read">
-                                <Link to={"/app-form/Form"} className="link font-medium" style={{cursor : 'pointer'}}>
+                                <Link to={"/login"} className="link font-medium" style={{cursor : 'pointer'}}>
                                         Access Content
                                  </Link>
                                 </div>
@@ -135,7 +135,7 @@ return(
                            
                             <div className="d-flex">
                                 <div className="read">
-                                <Link to={"/app-form/Form"} className="link font-medium" style={{cursor : 'pointer'}}>
+                                <Link to={"/login"} className="link font-medium" style={{cursor : 'pointer'}}>
                                         Access Content
                                  </Link>
                                 </div>

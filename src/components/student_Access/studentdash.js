@@ -35,7 +35,7 @@ return(
       <div>
                 <Row className='Row-one'>
                     <Col lg="4">
-                   <div className='col-one'>
+                    <div className='col-one'>
                     <div className='rectangle'>
                     </div>
                     <div className='head1'>
@@ -210,7 +210,7 @@ return(
                             <div className="d-flex">
                                 <div className="read">
                                 <a href="/app-form/Form" className="link font-medium" style={{cursor : 'pointer'}}>
-                                        Tessts/Quizes
+                                        Tests/Quizes
                                  </a> 
                                 </div>
                                 

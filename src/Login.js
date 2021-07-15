@@ -95,7 +95,7 @@ class Login extends Component{
                          Already have an account? Register <Link to='/register'>here</Link>
                      </span>
                     <div className="text-center">
-                        <a className="small" href="forgot-password.html">Forgot Password?</a>
+                        <a className="small" href="l">Forgot Password?</a>
                     </div>
                 </form>
             </div>
