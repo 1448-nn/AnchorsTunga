@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Card, CardBody, Row, Col, Navbar } from 'reactstrap';
 import img4 from './img4.jpg';
-import img1 from './images/img1.jpg';
+import img1 from './secondar.jpg';
 import './upperbar.css'
 import Footer from '../footer';
 
@@ -25,7 +25,7 @@ return(
                 My Grade </a> 
                 <a href="/teacher_Access/teacher_dash" className="link font-medium" style={{cursor : 'pointer'}}>
                 Upload Work </a> 
-                <a href="/homepage" className="link font-medium" style={{cursor : 'pointer'}}>
+                <a href="/app-form/login" className="link font-medium" style={{cursor : 'pointer'}}>
                 Logout </a> 
             </div>
         <div>

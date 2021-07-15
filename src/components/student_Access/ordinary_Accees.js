@@ -25,7 +25,7 @@ return(
                 My Grade </a> 
                 <a href="/teacher_Access/teacher_dash" className="link font-medium" style={{cursor : 'pointer'}}>
                 Upload Work </a> 
-                <a href="/homepage" className="link font-medium" style={{cursor : 'pointer'}}>
+                <a href="/app-form/login" className="link font-medium" style={{cursor : 'pointer'}}>
                 Logout </a> 
             </div>
         <div>

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Card, CardBody, Row, Col, Navbar } from 'reactstrap';
 import img4 from './img4.jpg';
-import img1 from './images/img1.jpg';
+import img1 from './primar.jpg';
 import './upperbar.css'
 import Footer from '../footer';
 
