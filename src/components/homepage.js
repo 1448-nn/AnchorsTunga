@@ -21,6 +21,7 @@ return(
 
                 <Link to={"/login"} className="link font-medium" style={{cursor : 'pointer'}}>
                     Login </Link>
+                <Link className="nav-link" to={'/register'} >Register</Link>
                 <Link to={"/app-form/login"} className="link font-medium" style={{cursor : 'pointer'}}>
                 Help </Link>
                 <Link to={"/app-form/Form"}className="link font-medium" style={{cursor : 'pointer'}}>
