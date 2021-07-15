@@ -19,8 +19,8 @@ return(
            
             <div className='land_page'>
 
-                <Link to={"/logout"} className="link font-medium" style={{cursor : 'pointer'}}>
-                    Logout </Link>
+                <Link to={"/login"} className="link font-medium" style={{cursor : 'pointer'}}>
+                    Login </Link>
                 <Link to={"/app-form/login"} className="link font-medium" style={{cursor : 'pointer'}}>
                 Help </Link>
                 <Link to={"/app-form/Form"}className="link font-medium" style={{cursor : 'pointer'}}>

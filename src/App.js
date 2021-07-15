@@ -48,10 +48,10 @@ class App extends Component{
                     <div className="auth-wrapper">
                         <div className="auth-inner">
                             <Switch>
-                                <Route exact path="/" component={Login}/>
+                                <Route exact path="/login" component={Login}/>
                                 <Route exact path="/logout" component={Login}/>
                                 <Route exact path="/register" component={Register}/>
-                                <Route exact path="/home" component={() => <Homepage user={this.state.user}/>}/>
+                                <Route exact path="/" component={() => <Homepage user={this.state.user}/>}/>
                                 < Route path='/teacher_Access/pages/grade' component={Grade}/>
                                 < Route path='/teacher_Access/pages/notes' component={Notes}/>
                                 <Route path='/teacher_Access/pages/pastpapers' component={PastPapers}/>

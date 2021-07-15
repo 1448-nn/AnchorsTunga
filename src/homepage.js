@@ -22,7 +22,8 @@ class Homepage extends Component{
                 <div>
 
                     <div className='land_page'>
-                        <Link className="nav-link" to={'/logout'} onClick={this.handleLogout}>LogOut</Link>
+                        <Link className="nav-link" to={'/logout'} onClick={this.handleLogout}>LogIn</Link>
+
                         <Link to={"/app-form/login"} className="link font-medium" style={{cursor : 'pointer'}}>
                             Help </Link>
                         <Link to={"/app-form/Form"} className="link font-medium" style={{cursor : 'pointer'}}>

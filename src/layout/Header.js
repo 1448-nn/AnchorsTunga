@@ -10,7 +10,7 @@ class Header extends Component{
         return(
             <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
                 <div className="container">
-                    <Link className="small" to={'/home'}>Home</Link>
+                    <Link className="small" to={'/'}>Home</Link>
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <Link className="nav-link" to={'/'}>Login</Link>

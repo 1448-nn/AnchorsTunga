@@ -53,7 +53,7 @@ class Login extends Component{
     }
     render(){
         if(this.state.loggedIn){
-            return <Redirect to={'/home'}/>
+            return <Redirect to={'/student_Access/studentdash'}/>
         }
         return(
             <div className='form-container'>
