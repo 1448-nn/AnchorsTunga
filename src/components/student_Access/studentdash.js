@@ -21,7 +21,7 @@ return(
                 <Link  to={"/app-form/Form"} className="link font-medium" style={{cursor : 'pointer'}}>
                 Lessons </Link>
                 <Link to={"/app-form/Form"} className="link font-medium" style={{cursor : 'pointer'}}>
-                Exams </Link>
+                Exams </Link>/home
                 <Link to={"/app-form/Form"} className="link font-medium" style={{cursor : 'pointer'}}>
                 My Grade </Link>
                 <Link to={"/teacher_Access/teacher_dash"} className="link font-medium" style={{cursor : 'pointer'}}>

@@ -97,6 +97,9 @@ class Login extends Component{
                     <div className="text-center">
                         <a className="small" href="l">Forgot Password?</a>
                     </div>
+                    <div className="text-center">
+                        <Link to={'/'} className="small" >Back Home</Link>
+                    </div>
                 </form>
             </div>
         );

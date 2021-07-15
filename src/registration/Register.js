@@ -140,6 +140,9 @@ class Register extends Component{
                     <div className="text-center">
                         <Link className="small" to={'/login'}>Already have an account? Login!</Link>
                     </div>
+                    <div className="text-center">
+                        <Link to={'/'} className="small" >Back Home</Link>
+                    </div>
                 </form>
             </div>
 
